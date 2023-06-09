@@ -10,6 +10,7 @@ export default createBrowserRouter(
   createRoutesFromElements(
     <Route errorElement={<ErrorPage />}>
       <Route path="/" element={<BlankPage />} />
+      <Route path="/hola" element={<ErrorPage />} />
     </Route>
   )
 );
