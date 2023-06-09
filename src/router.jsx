@@ -3,8 +3,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import BlankPage from "./views/BlankPage";
-import ErrorPage from "./views/ErrorPage";
+import BlankPage from "./pages/BlankPage";
+import ErrorPage from "./pages/ErrorPage";
 
 export default createBrowserRouter(
   createRoutesFromElements(
